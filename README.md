@@ -28,13 +28,7 @@ conform to the XES (eXtensible Event Stream) standard.
 straints and rules, expressed using Metric Temporal Logic (MTL) formulas. These con-
 straints are critical in determining the time-based conditions for aligning the activities
 in the log file.
-- dom : Specifies the domain type, which governs how the temporal constraints are
-applied and which variant of the planning problem is generated. The available domain
-types are:
-  * LTL-d: Linear Temporal Logic with duration.
-  * MTL: Metric Temporal Logic, which supports time-bounded constraints.
-  * MTL-d: Metric Temporal Logic with duration.
 
 ```bash
 Example Usage:
-python main.py -log example_log.xes -decl example_constraints.decl -dom MTL
+python main.py -log example_log.xes -decl example_constraints.decl 
