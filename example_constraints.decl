@@ -1,0 +1,9 @@
+activity A
+activity B
+activity C
+activity D
+activity E
+Response[A, B] | | |
+Chain Succession[C, D] | | |
+
+
